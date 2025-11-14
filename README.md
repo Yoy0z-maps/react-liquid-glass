@@ -20,8 +20,20 @@ pnpm add @yoy0z-maps/liquid-glass-react
 Import the CSS once globally (e.g., in \_app.tsx or layout.tsx):
 
 ```tsx
-import "@yoy0z-maps/liquid-glass-react/index.css";
+import "@yoy0z-maps/liquid-glass-react/index.css"; // Required: imports default LiquidGlass styles
 ```
+
+---
+
+## 🎨 Demo Preview
+
+<p align="center">
+  <img src="./screenshot.png" alt="demo" width="600" />
+</p>
+
+### 🧪 Live Playground
+
+👉 [Live Playground](https://yoy0z-maps.com/npm/liquid-glass)
 
 ---
 
@@ -32,7 +44,7 @@ import "@yoy0z-maps/liquid-glass-react/index.css";
 
 import React from "react";
 import { LiquidGlass } from "@yoy0z-maps/liquid-glass-react";
-import "@yoy0z-maps/liquid-glass-react/index.css";
+import "@yoy0z-maps/liquid-glass-react/index.css"; // Required: imports default LiquidGlass styles
 
 export default function Page() {
   return (
